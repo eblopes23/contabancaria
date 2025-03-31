@@ -1,13 +1,18 @@
 package conta;
 
 import java.util.Scanner;
+<<<<<<< HEAD
 import conta.model.Conta;
+=======
+
+>>>>>>> ajuste
 import conta.util.Cores;
 
 public class Menu {
 
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		Conta c1 = new Conta(1, 123, 1, "Adriana", 10000.2f);
 		c1.visualizar();
 		c1.sacar(12000.2f);
@@ -15,6 +20,8 @@ public class Menu {
 		c1.depositar(5000.2f);
 		c1.visualizar();
 		
+=======
+>>>>>>> ajuste
 		Scanner sc = new Scanner(System.in);
 		
 		int opcao;
